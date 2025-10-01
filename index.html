@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Demo</title>
+    <link href="output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet">
+  </head>
+  <body>
+
+    <section class="header bg-[rgba(255,254,244,1)]">
+      <div class="flex items-center justify-between  max-w-[1440px] mx-auto gap-[50px] pt-[35px] pb-[3px]">
+
+        <div class="flex gap-[20px] items-end max-h-[44px]">
+          <img class="w-[34px] h-[44px] block" src="./src/assets/logo.svg" alt="logo-icon" />
+          <h3 class="font-extrabold text-[35px] leading-[35px]" style="font-family: 'Nexa', sans-serif">Great.bg</h3>
+        </div>
+
+        <ul class="flex m-0 p-0 gap-[24px] text-[15px]" style="font-family: 'Inter', sans-serif">
+          <li><a  class="font-semibold" href="#">Продукти</a></li>
+          <li><a href="#">Блог</a></li>
+          <li><a href="#">Специален Допир</a></li>
+          <li><a href="#">Партньори</a></li>
+          <li><a href="#">Корпоративни клиенти</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+
+        <div class="relative w-full max-w-[262px]">
+          <input
+            class="w-full pt-[10px] pb-[8px] pl-[46px] border-[1px] border-[rgba(217,217,217,1)] rounded-[30px] placeholder:text-[rgba(95,109,126,1)] text-[14px]/[22px]"
+            placeholder="Търси тук..."
+            style="font-family: 'Inter', sans-serif"
+            type="text"
+          />
+          <img class="absolute top-[calc(50%-2px)] left-[13px] -translate-y-1/2 w-[24px] h-[24px]"  src="./src/assets/icon-search.svg" alt="icon-search" />
+        </div>
+
+        <div class="flex gap-[29px]">
+          <p class="relative">
+            <img class="relative z-[10]" src="./src/assets/shopping-bag.svg" alt="shopping-bag" />
+            <span class="absolute z-[1] -top-[10px] left-[7px] flex py-[1px] px-[6px] rounded-full text-[12px] text-white bg-[rgba(254,87,100,1)]">1</span>
+          </p>
+          <p>
+            <img src="./src/assets/user.svg" alt="icon-user" />
+          </p>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+  </body>
+</html>

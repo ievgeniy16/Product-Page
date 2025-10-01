@@ -1,0 +1,12 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
+    "postcss": "^8.4.26",
+    "autoprefixer": "^10.4.15"
+  }
+}
