@@ -578,12 +578,44 @@ video {
   top: calc(50% - 2px);
 }
 
+.top-\[\] {
+  top: ;
+}
+
+.top-\[15px\] {
+  top: 15px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-\[0\] {
+  right: 0;
+}
+
+.right-\[10\&\] {
+  right: 10&;
+}
+
+.right-\[10\%\] {
+  right: 10%;
+}
+
+.right-\[27\%\] {
+  right: 27%;
+}
+
 .z-\[10\] {
   z-index: 10;
 }
 
 .z-\[1\] {
   z-index: 1;
+}
+
+.float-start {
+  float: inline-start;
 }
 
 .m-0 {
@@ -683,8 +715,28 @@ video {
   margin-bottom: 20px;
 }
 
+.mb-\[22px\] {
+  margin-bottom: 22px;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.mt-\[12px\] {
+  margin-top: 12px;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -791,6 +843,14 @@ video {
   height: 100%;
 }
 
+.h-\[97px\] {
+  height: 97px;
+}
+
+.h-\[52px\] {
+  height: 52px;
+}
+
 .max-h-\[44px\] {
   max-height: 44px;
 }
@@ -875,6 +935,14 @@ video {
   width: 100%;
 }
 
+.w-\[111px\] {
+  width: 111px;
+}
+
+.w-\[52px\] {
+  width: 52px;
+}
+
 .min-w-\[582px\] {
   min-width: 582px;
 }
@@ -918,6 +986,20 @@ video {
 .-translate-y-1\/2 {
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[2\.85deg\] {
+  --tw-rotate: 2.85deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[-2\.85deg\] {
+  --tw-rotate: -2.85deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-start {
@@ -1000,6 +1082,18 @@ video {
   gap: 109px;
 }
 
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[19px\] {
+  gap: 19px;
+}
+
+.self-center {
+  align-self: center;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -1052,6 +1146,10 @@ video {
   border-radius: 14px;
 }
 
+.rounded-\[50px\] {
+  border-radius: 50px;
+}
+
 .border-\[1px\] {
   border-width: 1px;
 }
@@ -1094,6 +1192,18 @@ video {
 
 .border-b-\[1px\] {
   border-bottom-width: 1px;
+}
+
+.border-r {
+  border-right-width: 1px;
+}
+
+.border-r-\[1px\] {
+  border-right-width: 1px;
+}
+
+.border-l-\[1px\] {
+  border-left-width: 1px;
 }
 
 .border-\[rgba\(213\2c 213\2c 213\2c 1\)\] {
@@ -1178,6 +1288,10 @@ video {
 
 .bg-\[rgba\(123\2c 10\2c 209\2c 0\.22\)\] {
   background-color: rgba(123,10,209,0.22);
+}
+
+.bg-\[rgba\(0\2c 135\2c 251\2c 1\)\] {
+  background-color: rgba(0,135,251,1);
 }
 
 .bg-gradient-to-b {
@@ -1385,6 +1499,61 @@ video {
   padding-right: 18px;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-\[11px\] {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-\[35px\] {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.px-\[34px\] {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.px-\[0px\] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.py-\[8px\] {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.py-\[0px\] {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pb-\[3px\] {
   padding-bottom: 3px;
 }
@@ -1435,6 +1604,30 @@ video {
 
 .pb-\[100px\] {
   padding-bottom: 100px;
+}
+
+.pr-\[\] {
+  padding-right: ;
+}
+
+.pr-\[73px\] {
+  padding-right: 73px;
+}
+
+.pl-\[73px\] {
+  padding-left: 73px;
+}
+
+.pl-\[\] {
+  padding-left: ;
+}
+
+.pb-\[35px\] {
+  padding-bottom: 35px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-justify {
@@ -1536,6 +1729,15 @@ video {
   line-height: 32px;
 }
 
+.text-\[40px\]\/\[72px\] {
+  font-size: 40px;
+  line-height: 72px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1550,6 +1752,10 @@ video {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-extralight {
+  font-weight: 200;
 }
 
 .leading-\[35px\] {
