@@ -13,10 +13,14 @@ Follow the steps below to install and run it locally.
    git clone https://github.com/ievgeniy16/Product-Page
 
 2. Navigate into the project folder:
-- cd new-project
+- cd "folder name"
 
 3. Install dependencies:
 - npm install
 
 4.Start the Tailwind watcher for development:
 - npm run dev
+
+5. This command will watch for file changes and automatically rebuild your CSS.
+⚡ To view the site in your browser, run it with Live Server (e.g., right-click index.html → Open with Live Server in VS Code).
+Your browser will auto-refresh when changes are detected.
