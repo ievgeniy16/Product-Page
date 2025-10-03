@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -53,10 +54,10 @@
 
 
 
-    <section class="product-info bg-[rgba(255,254,244,1)]">
+    <section class="product-info pb-[100px]  bg-[rgba(255,254,244,1)]">
       <div class="flex max-w-[1440px] mx-auto gap-[85px]">
 
-        <div class="max-w-[642px]">
+        <div class="min-w-[642px]">
           <img class="object-cover w-full mb-[39px] h-[895px] rounded-[10px]" src="./src/assets/product-image/product1.jpg" alt="product1">
           <ul class="flex justify-between">
             <li><img class="border-[5px] border-[rgba(213,213,213,1)] rounded-[5px] w-[150px] h-[150px]" src="./src/assets/product-image/product2.jpg" alt="product2"></li>
@@ -171,6 +172,65 @@
         </div>
       </div>
     </section>
+
+
+
+    <section class="similar-products pb-[100px] bg-[rgba(255,254,244,1)]">
+      <div class="max-w-[1440px] mx-auto">
+
+        <div class="flex mb-[45px] items-end justify-between">
+          <h3 class="text-[45px] text-[rgba(46,54,70,1)] font-bold" style="font-family: 'Nexa', sans-serif">Подобни продукти</h3>
+          <div class="flex gap-[22px]">
+            <button class="flex items-center justify-center w-[44px] h-[44px] p-[10px] shadow-[0_4.8px_4.8px_rgba(12,4,102,0.2)] bg-[rgba(123,10,209,0.22)] rounded-full">
+              <img src="./src/assets/similar-product/arrow-left.svg" alt="">
+            </button>
+            <button class="flex items-center justify-center w-[44px] h-[44px] p-[10px] shadow-[0_4.8px_4.8px_rgba(12,4,102,0.2)] bg-[rgba(123,10,209,1)] rounded-full">
+              <img src="./src/assets/similar-product/arrow-rigth.svg" alt="">
+            </button>
+          </div>
+        </div>
+
+        <ul class="flex justify-between">
+          <li class="max-w-[278px]">
+            <img class="mb-[26px] w-[278px] h-[317px] rounded-[5px]" src="./src/assets/similar-product/sim-product-1.jpg" alt="product-1">
+            <div>
+              <h6 class="mb-[10px] text-[22px]/[32px] font-bold text-[rgba(35,35,35,1)]" style="font-family: 'Nexa', sans-serif">Smart Watch With Bracelet - Black</h6>
+              <p class="mb-[20px] text-[18px] text-[rgba(35,35,35,1)]" style="font-family: 'Jost', sans-serif">25,00 лв.</p>
+            </div>
+            <button class="w-full px-[18px] py-[12px] text-[18px] text-white font-semibold rounded-[8px] bg-[rgba(123,10,209,1)]" style="font-family: 'Inter', sans-serif">Купи сега</button>
+          </li>
+
+          <li class="max-w-[278px]">
+            <img class="mb-[26px] w-[278px] h-[317px] rounded-[5px]" src="./src/assets/similar-product/sim-product-2.jpg" alt="product-1">
+            <div>
+              <h6 class="mb-[10px] text-[22px]/[32px] font-bold text-[rgba(35,35,35,1)]" style="font-family: 'Nexa', sans-serif">Ароматна свещ <br/> Flower bouquet</h6>
+              <p class="mb-[20px] text-[18px] text-[rgba(35,35,35,1)]" style="font-family: 'Jost', sans-serif">25,00 лв.</p>
+            </div>
+            <button class="w-full px-[18px] py-[12px] text-[18px] text-white font-semibold rounded-[8px] bg-[rgba(123,10,209,1)]" style="font-family: 'Inter', sans-serif">Купи сега</button>
+          </li>
+
+          <li class="max-w-[278px]">
+            <img class="mb-[26px] w-[278px] h-[317px] rounded-[5px]" src="./src/assets/similar-product/sim-product-3.jpg" alt="product-1">
+            <div>
+              <h6 class="mb-[10px] text-[22px]/[32px] font-bold text-[rgba(35,35,35,1)]" style="font-family: 'Nexa', sans-serif">Илюстрация <br/> Лястовица</h6>
+              <p class="mb-[20px] text-[18px] text-[rgba(35,35,35,1)]" style="font-family: 'Jost', sans-serif">25,00 лв.</p>
+            </div>
+            <button class="w-full px-[18px] py-[12px] text-[18px] text-white font-semibold rounded-[8px] bg-[rgba(123,10,209,1)]" style="font-family: 'Inter', sans-serif">Купи сега</button>
+          </li>
+
+          <li class="max-w-[278px]">
+            <img class="mb-[26px] w-[278px] h-[317px] rounded-[5px]" src="./src/assets/similar-product/sim-product-4.png" alt="product-1">
+            <div>
+              <h6 class="mb-[10px] text-[22px]/[32px] font-bold text-[rgba(35,35,35,1)]" style="font-family: 'Nexa', sans-serif">Книга с илюстрации Малкият принц</h6>
+              <p class="mb-[20px] text-[18px] text-[rgba(35,35,35,1)]" style="font-family: 'Jost', sans-serif">25,00 лв.</p>
+            </div>
+            <button class="w-full px-[18px] py-[12px] text-[18px] text-white font-semibold rounded-[8px] bg-[rgba(123,10,209,1)]" style="font-family: 'Inter', sans-serif">Купи сега</button>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
   </body>
 
 </html>
